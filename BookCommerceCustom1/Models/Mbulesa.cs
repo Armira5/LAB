@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BookCommerceCustom1.Models
 {
-   
+    [Table("Mbulesa")]
     public class Mbulesa
     {
         public int Id { get; set; }

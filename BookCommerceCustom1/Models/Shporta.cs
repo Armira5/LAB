@@ -4,9 +4,9 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BookCommerceCustom1.Models
 {
-   
-    public class Shporta
-    {
+    [Table("Shporta")]
+	public class Shporta
+	{
         public int Id { get; set; }
         public int ProduktiId { get; set; }
         [ForeignKey("ProduktiId")]

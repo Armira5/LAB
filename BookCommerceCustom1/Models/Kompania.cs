@@ -1,10 +1,9 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
-
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BookCommerceCustom1.Models
 {
-  
+    [Table("Kompania")]
     public class Kompania
     {
         public int Id { get; set; }
