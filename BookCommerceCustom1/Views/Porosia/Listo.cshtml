@@ -3,7 +3,7 @@
 	var nePritjeCss = "text-primary";
 	var neProcesCss = "text-primary";
 	var teKompletuaraCss = "text-primary";
-	var teGjithaCss = "text-primary";
+	var teGjithaCss = "text-primary";	
 	var teAprovuaraCss = "text-primary";
 
 	switch (statusi)
@@ -23,7 +23,7 @@
 		case "TeGjitha":
 			teGjithaCss = "active text-white";
 			break;
-
+	
 	}
 }
 
@@ -36,33 +36,33 @@
 			<ul class="list-group list-group-horizontal-sm">
 				<a style="text-decoration: none" asp-controller="Porosia"
 				   asp-action="Listo" asp-route-statusi="NeProces">
-				<li class="list-group-item @neProcesCss">
-					In proces
-				</li>
+					<li class="list-group-item @neProcesCss">
+						In proces
+					</li>
 				</a>
 				<a style="text-decoration: none" asp-controller="Porosia"
 				   asp-action="Listo" asp-route-statusi="NePritje">
 				<li class="list-group-item @nePritjeCss">
-					Ne pritje
-				</li>
+						Ne pritje
+					</li>
 				</a>
 				<a style="text-decoration: none" asp-controller="Porosia"
 				   asp-action="Listo" asp-route-statusi="TeKompletuara">
-				<li class="list-group-item @teKompletuaraCss">
-					Te Kompletuara
-				</li>
+					<li class="list-group-item @teKompletuaraCss">
+						Te Kompletuara
+					</li>
 				</a>
 				<a style="text-decoration: none" asp-controller="Porosia"
 				   asp-action="Listo" asp-route-statusi="TeAprovuara">
-				<li class="list-group-item @teAprovuaraCss">
-					Te aprovuara
-				</li>
+					<li class="list-group-item @teAprovuaraCss">
+						Te aprovuara
+					</li>
 				</a>
 				<a style="text-decoration: none" asp-controller="Porosia"
 				   asp-action="Listo" asp-route-statusi="TeGjitha">
-				<li class="list-group-item @teGjithaCss">
-					Te gjitha
-				</li>
+					<li class="list-group-item @teGjithaCss">
+						Te gjitha
+					</li>
 				</a>
 			</ul>
 		</div>
